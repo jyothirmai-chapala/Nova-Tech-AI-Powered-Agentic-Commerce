@@ -84,3 +84,6 @@ A customer can enter natural-language requests such as:
 
 ```text
 I need a mouse under ₹1000
+
+you can view the demo video 
+https://drive.google.com/file/d/1MToaJl4glCo_DauDFiBHDsn8RQgDi7mp/view?usp=sharing
