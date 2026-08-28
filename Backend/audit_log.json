@@ -1,0 +1,134 @@
+[
+    {
+        "id": 1,
+        "timestamp": "2026-08-28T13:35:09.364667+00:00",
+        "event_type": "ai_query",
+        "status": "success",
+        "message": "Nova AI query received",
+        "order_id": null,
+        "payment_id": null,
+        "amount": null,
+        "currency": "INR",
+        "metadata": {
+            "query_length": 26
+        }
+    },
+    {
+        "id": 2,
+        "timestamp": "2026-08-28T13:35:40.169365+00:00",
+        "event_type": "order_created",
+        "status": "success",
+        "message": "Razorpay order created successfully",
+        "order_id": "order_TVCyM3WKa4UFTI",
+        "payment_id": null,
+        "amount": 2297,
+        "currency": "INR",
+        "metadata": {
+            "razorpay_amount": 229700
+        }
+    },
+    {
+        "id": 3,
+        "timestamp": "2026-08-28T13:36:26.410510+00:00",
+        "event_type": "payment_verified",
+        "status": "success",
+        "message": "Payment verified successfully",
+        "order_id": "order_TVCyM3WKa4UFTI",
+        "payment_id": "pay_TVCypiKR32i03t",
+        "amount": 2297.0,
+        "currency": "INR",
+        "metadata": {
+            "signature_verified": true
+        }
+    },
+    {
+        "id": 4,
+        "timestamp": "2026-08-28T13:39:59.112879+00:00",
+        "event_type": "order_created",
+        "status": "success",
+        "message": "Razorpay order created successfully",
+        "order_id": "order_TVD2ukLurB2b3F",
+        "payment_id": null,
+        "amount": 1999,
+        "currency": "INR",
+        "metadata": {
+            "razorpay_amount": 199900
+        }
+    },
+    {
+        "id": 5,
+        "timestamp": "2026-08-28T13:41:26.090451+00:00",
+        "event_type": "order_created",
+        "status": "success",
+        "message": "Razorpay order created successfully",
+        "order_id": "order_TVD4Rh8APelSHV",
+        "payment_id": null,
+        "amount": 1999,
+        "currency": "INR",
+        "metadata": {
+            "razorpay_amount": 199900
+        }
+    },
+    {
+        "id": 6,
+        "timestamp": "2026-08-28T13:57:16.168430+00:00",
+        "event_type": "order_created",
+        "status": "success",
+        "message": "Razorpay order created successfully",
+        "order_id": "order_TVDLAkJ9KHu00u",
+        "payment_id": null,
+        "amount": 799,
+        "currency": "INR",
+        "metadata": {
+            "razorpay_amount": 79900
+        }
+    },
+    {
+        "id": 7,
+        "timestamp": "2026-08-28T13:57:43.651922+00:00",
+        "event_type": "payment_failed",
+        "status": "failed",
+        "message": "Payment failed",
+        "order_id": "order_TVDLAkJ9KHu00u",
+        "payment_id": "pay_TVDLTGEyGtFUtj",
+        "amount": 799.0,
+        "currency": "INR",
+        "metadata": {
+            "error_code": "BAD_REQUEST_ERROR",
+            "error_source": "gateway",
+            "error_step": "payment_authorization",
+            "error_reason": "payment_failed"
+        }
+    },
+    {
+        "id": 8,
+        "timestamp": "2026-08-28T13:58:24.805042+00:00",
+        "event_type": "order_created",
+        "status": "success",
+        "message": "Razorpay order created successfully",
+        "order_id": "order_TVDMNexH3muvq4",
+        "payment_id": null,
+        "amount": 799,
+        "currency": "INR",
+        "metadata": {
+            "razorpay_amount": 79900
+        }
+    },
+    {
+        "id": 9,
+        "timestamp": "2026-08-28T13:58:49.112191+00:00",
+        "event_type": "payment_failed",
+        "status": "failed",
+        "message": "Payment failed",
+        "order_id": "order_TVDMNexH3muvq4",
+        "payment_id": "pay_TVDMcURYjXgsqW",
+        "amount": 799.0,
+        "currency": "INR",
+        "metadata": {
+            "error_code": "BAD_REQUEST_ERROR",
+            "error_source": "gateway",
+            "error_step": "payment_authorization",
+            "error_reason": "payment_failed"
+        }
+    }
+]
